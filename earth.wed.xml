@@ -4002,7 +4002,7 @@
                 <child id="7005"/>
                 <child id="7020"/>
             </children>
-            <hierarchy hidden="1" locked="0" name="Ground_concrete.pol"/>
+            <hierarchy hidden="0" locked="0" name="Ground_concrete.pol"/>
             <polygon_placement heading="162.1" resource="objects/Ground_concrete.pol"/>
         </object>
         <object class="WED_SimpleBezierBoundaryNode" id="6664" parent_id="6662">
@@ -7669,15 +7669,15 @@
         </pref>
         <pref name="doc/export_target" value="2"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="121.818930"/>
-        <pref name="map/north" value="31.141171"/>
+        <pref name="map/east" value="121.832332"/>
+        <pref name="map/north" value="31.146702"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="31.138231"/>
+        <pref name="map/south" value="31.125690"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="121.815000"/>
+        <pref name="map/west" value="121.804254"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -7749,8 +7749,8 @@
         <pref name="window/height" value="852"/>
         <pref name="window/main_split" value="151"/>
         <pref name="window/main_split2" value="1178"/>
-        <pref name="window/prev_split" value="293"/>
-        <pref name="window/prop_split" value="463"/>
+        <pref name="window/prev_split" value="303"/>
+        <pref name="window/prop_split" value="473"/>
         <pref name="window/width" value="1440"/>
         <pref name="window/x_loc" value="0"/>
         <pref name="window/y_loc" value="44"/>
