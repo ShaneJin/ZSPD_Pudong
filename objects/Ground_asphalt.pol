@@ -2,7 +2,7 @@ A
 850
 DRAPED_POLYGON
 
-LAYER_GROUP taxiways +2
+LAYER_GROUP taxiways +3
 TEXTURE Ground_asphalt.png
 SURFACE asphalt
-SCALE 25 25
+SCALE 5 5

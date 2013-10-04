@@ -5,4 +5,4 @@ DRAPED_POLYGON
 LAYER_GROUP taxiways +1
 TEXTURE Ground_concrete.png
 SURFACE concrete
-SCALE 12.5 12.5
+SCALE 5 5

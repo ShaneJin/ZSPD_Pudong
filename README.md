@@ -10,9 +10,11 @@ X-Plane地景
 
 pol贴图层：
 水泥滑行道贴图：taxiways +1
-沥青滑行道贴图：taxiways +2
+水泥滑行道细节贴图：taxiways +2
+沥青滑行道贴图：taxiways +3
 水泥跑道贴图：runways +1
-沥青跑道贴图：runways +2
+水泥跑道细节贴图：runways +2
+沥青跑道贴图：runways +3
 跑道标记 markings 0
 
 lin地面线：
