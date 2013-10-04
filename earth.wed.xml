@@ -109,6 +109,7 @@
                 <child id="6424"/>
                 <child id="3519"/>
                 <child id="7949"/>
+                <child id="9318"/>
                 <child id="6269"/>
                 <child id="6564"/>
                 <child id="6565"/>
@@ -859,6 +860,23 @@
             <hierarchy hidden="0" locked="1" name="PudongOrtho\zspd_overlay_30.png"/>
             <draped_orthophoto resource="PudongOrtho\zspd_overlay_30.pol"/>
         </object>
+        <object class="WED_Ring" id="9306" parent_id="9307">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="9308"/>
+                <child id="9309"/>
+                <child id="9310"/>
+                <child id="9311"/>
+                <child id="9312"/>
+                <child id="9313"/>
+                <child id="9314"/>
+                <child id="9315"/>
+                <child id="9316"/>
+                <child id="9317"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Polygon 1 outer ring"/>
+        </object>
         <object class="WED_Ring" id="6228" parent_id="6227">
             <sources/>
             <viewers/>
@@ -870,6 +888,15 @@
             </children>
             <hierarchy hidden="0" locked="0" name="ring"/>
         </object>
+        <object class="WED_PolygonPlacement" id="9307" parent_id="9318">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="9306"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="grass.pol"/>
+            <polygon_placement heading="210.0" resource="objects/grass.pol"/>
+        </object>
         <object class="WED_TextureNode" id="6229" parent_id="6228">
             <sources/>
             <viewers/>
@@ -877,6 +904,13 @@
             <hierarchy hidden="0" locked="0" name="node"/>
             <point latitude="31.112839109" longitude="121.785234006"/>
             <texture_node s="0.0000" t="0.0000"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9308" parent_id="9306">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.001267476" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="-0.000477510" latitude="31.148731312" longitude="121.791100161" split="1"/>
         </object>
         <object class="WED_TextureNode" id="6230" parent_id="6228">
             <sources/>
@@ -886,6 +920,13 @@
             <point latitude="31.112839109" longitude="121.796199720"/>
             <texture_node s="1.0000" t="0.0000"/>
         </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9309" parent_id="9306">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="31.148693715" longitude="121.790974880" split="0"/>
+        </object>
         <object class="WED_TextureNode" id="6231" parent_id="6228">
             <sources/>
             <viewers/>
@@ -894,6 +935,13 @@
             <point latitude="31.122222986" longitude="121.796199720"/>
             <texture_node s="1.0000" t="1.0000"/>
         </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9310" parent_id="9306">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="31.148427754" longitude="121.791093653" split="0"/>
+        </object>
         <object class="WED_TextureNode" id="6232" parent_id="6228">
             <sources/>
             <viewers/>
@@ -901,6 +949,63 @@
             <hierarchy hidden="0" locked="0" name="node"/>
             <point latitude="31.122222986" longitude="121.785234006"/>
             <texture_node s="0.0000" t="1.0000"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9311" parent_id="9306">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="31.148690302" longitude="121.792002246" split="0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9312" parent_id="9306">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000187480" ctrl_latitude_lo="-0.000187480" ctrl_longitude_hi="0.000046118" ctrl_longitude_lo="-0.000046118" latitude="31.149240764" longitude="121.792138234" split="0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9313" parent_id="9306">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="0.000425294" ctrl_latitude_lo="-0.000425294" ctrl_longitude_hi="-0.000160962" ctrl_longitude_lo="0.000160962" latitude="31.150290602" longitude="121.792066848" split="0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9314" parent_id="9306">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="31.151165846" longitude="121.791734169" split="0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9315" parent_id="9306">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point ctrl_latitude_hi="0.000115195" ctrl_latitude_lo="-0.000115195" ctrl_longitude_hi="-0.000068041" ctrl_longitude_lo="0.000068041" latitude="31.151548775" longitude="121.791525904" split="0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9316" parent_id="9306">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point ctrl_latitude_hi="-0.000232922" ctrl_latitude_lo="0.000232922" ctrl_longitude_hi="-0.000099104" ctrl_longitude_lo="0.000099104" latitude="31.151498646" longitude="121.791083339" split="0"/>
+        </object>
+        <object class="WED_SimpleBezierBoundaryNode" id="9317" parent_id="9306">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="31.151189229" longitude="121.790951661" split="0"/>
+        </object>
+        <object class="WED_Group" id="9318" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="9307"/>
+            </children>
+            <hierarchy hidden="0" locked="1" name="Grass"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="6239" parent_id="6269">
             <sources/>
@@ -22048,18 +22153,19 @@
             <item value="3519"/>
             <item value="6269"/>
             <item value="7949"/>
+            <item value="9318"/>
         </pref>
         <pref name="doc/export_target" value="2"/>
         <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="121.794444"/>
-        <pref name="map/north" value="31.159099"/>
+        <pref name="map/east" value="121.846707"/>
+        <pref name="map/north" value="31.172628"/>
         <pref name="map/obj_density" value="1"/>
         <pref name="map/pavement_alpha" value="4"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="31.145641"/>
+        <pref name="map/south" value="31.114959"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="121.774637"/>
+        <pref name="map/west" value="121.761858"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -22084,7 +22190,7 @@
         <pref name="map_Objects_Object" value="custom objs/parkingsign_4.obj"/>
         <pref name="map_Objects_Show with" value="527"/>
         <pref name="map_Polygons_Heading" value="210.000000"/>
-        <pref name="map_Polygons_Resource" value="objects/Runway_asphalt.pol"/>
+        <pref name="map_Polygons_Resource" value="objects/grass.pol"/>
         <pref name="map_Polygons_Use Texture Map" value="0"/>
         <pref name="map_Ramp Start_Equipment Type" value=""/>
         <pref name="map_Ramp Start_Ramp Start Type" value="136"/>
@@ -22131,8 +22237,8 @@
         <pref name="window/height" value="1032"/>
         <pref name="window/main_split" value="151"/>
         <pref name="window/main_split2" value="1498"/>
-        <pref name="window/prev_split" value="433"/>
-        <pref name="window/prop_split" value="422"/>
+        <pref name="window/prev_split" value="453"/>
+        <pref name="window/prop_split" value="442"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="0"/>
         <pref name="window/y_loc" value="44"/>
