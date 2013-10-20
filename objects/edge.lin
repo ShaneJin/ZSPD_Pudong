@@ -1,0 +1,14 @@
+A
+850
+LINE_PAINT
+
+TEXTURE concrete_edge.png
+LOD 3000
+TEX_WIDTH 64
+SCALE 0.6 5
+
+S_OFFSET 0		0	31	63
+
+LAYER_GROUP markings +1
+
+MIRROR
